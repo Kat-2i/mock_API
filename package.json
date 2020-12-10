@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json"
+    "start": "json-server --watch db.json",
+    "start:users": "json-server --watch users.js",
+    "start:comments": "json-server --watch comments.js",
+    "start:generate": "json-server --watch generate.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.3"
+    "faker": "^5.1.0",
+    "json-server": "^0.16.3",
+    "lodash": "^4.17.20"
   }
 }

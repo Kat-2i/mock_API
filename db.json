@@ -1,9 +1,83 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Sam"
+    },
+    {
+      "id": 2,
+      "name": "Mat"
+    },
+    {
+      "id": 3,
+      "name": "Bob"
+    },
+    {
+      "id": 4,
+      "name": "Ross"
+    },
+    {
+      "name": "Julia",
+      "id": 5
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Global Warming",
+      "userId": 1,
+      "comments": []
+    },
+    {
+      "id": 2,
+      "title": "Christmas decorations",
+      "userId": 2,
+      "comments": []
+    },
+    {
+      "id": 3,
+      "title": "Vegan cooking",
+      "userId": 1,
+      "comments": []
+    },
+    {
+      "id": 4,
+      "title": "Living in a small town",
+      "userId": 3,
+      "comments": []
+    },
+    {
+      "id": 5,
+      "title": "Running your local server",
+      "userId": 4,
+      "comments": []
+    }
+  ],
+  "commnets": [
+    {
+      "id": 1,
+      "text": "Very interesting",
+      "userid": 1
+    },
+    {
+      "id": 1,
+      "text": "Would love to hear more about it",
+      "userid": 2
+    },
+    {
+      "id": 1,
+      "text": "I can relate to it",
+      "userid": 3
+    },
+    {
+      "id": 1,
+      "text": "Looks very easy",
+      "userid": 4
+    },
+    {
+      "id": 1,
+      "text": "Very interesting",
+      "userid": 1
+    }
+  ]
+}
